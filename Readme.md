@@ -89,33 +89,31 @@ Conseils & dépannage
 
 Sections du TP (à remplir avec captures & explications)
 1. Démarrer l'infrastructure :
-   - Image : ![Demarrage des conteneurs](../screens/Capture1.PNG)
+   - Image : ![Demarrage des conteneurs](screens/Capture1.PNG)
 
 2. Vérifier les conteneurs :
-    - Image : ![Verification dans Docker Desktop](../screens/Capture2.PNG)
+    - Image : ![Verification dans Docker Desktop](screens/Capture2.PNG)
 3. Ingestion (Kafka)
    - Création de topic, producer, format des messages.
-    - Image : ![Création de topic kafka](../screens/Capture5.PNG)
-   - Image : ![Producteur Kafka](../screens/CapturePRODUCER.PNG)
-    - Image : ![Consommateur Kafka](../screens/CaptureConsumer.PNG)
+    - Image : ![Création de topic kafka](screens/Capture5.PNG)
+   - Image : ![Producteur Kafka](screens/CapturePRODUCER.PNG)
+    - Image : ![Consommateur Kafka](screens/CaptureConsumer.PNG)
 
 3. Speed layer (streaming_job.py)
    - Schéma, lecture Kafka, parsing JSON, agrégation en streaming.
-   - Image : ![Streaming](image.png)
+   - Image : ![Streaming](screens/image.png)
 
 4. Batch layer (batch_job.py)
    - Traitement historique, écriture des résultats (ex: app/batch_output).
-   - Image : ![Batch](../screens/Capture3-1.PNG)
-   - Image : ![Resultats](../screens/Capture3.PNG)
+   - Image : ![Batch](screens/Capture3-1.PNG)
+   - Image : ![Resultats](screens/Capture3.PNG)
 
 5. Serving layer (serving_layer.py)
    - Fusion Batch + Stream, exposition / simulation de l'API.
-   - Image : ![Serving](../screens/CaptureServing.PNG)
+   - Image : ![Serving](screens/CaptureServing.PNG)
 
 6. Exemples de sorties
    - JSON de sortie batch, capture console du streaming.
-   - Image : ![Sorties](../screens/Capture4-2.PNG)
-   - Image : ![Dossier genere](../screens/Capture4.PNG) 
+   - Image : ![Sorties](screens/Capture4-2.PNG)
+   - Image : ![Dossier genere](screens/Capture4.PNG) 
 
-Licence
-- Usage pédagogique (TP). Adapter librement pour les exercices du cours.
